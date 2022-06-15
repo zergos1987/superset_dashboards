@@ -5,6 +5,7 @@
 # Packaging / compiled
 node_modules/
 venv/
+.DS_Store
 # Temporary/OS files
 *.*~
 # IDE files
