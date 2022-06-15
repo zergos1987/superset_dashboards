@@ -1,0 +1,12 @@
+# logs
+*.log
+# enviroments
+.env
+# Packaging / compiled
+node_modules/
+venv/
+# Temporary/OS files
+*.*~
+# IDE files
+.idea/
+.vscode/
