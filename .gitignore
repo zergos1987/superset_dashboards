@@ -3,6 +3,8 @@
 # enviroments
 .env
 # Packaging / compiled
+superset-master/
+docker_vm_compiled/
 node_modules/
 venv/
 .DS_Store
