@@ -1,1 +1,1 @@
-Windows setup of superset with override design =
+Windows setup of superset with override design.
