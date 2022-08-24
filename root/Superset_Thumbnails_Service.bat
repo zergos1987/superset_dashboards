@@ -1,1 +1,0 @@
-cd /d path to...www\root & path to...www\root\venv\Scripts\activate.bat & SET FLASK_APP=superset&SET SUPERSET_LAUNCH_MODE=THUMBNAILS&SET SUPERSET_CONFIG_PATH=path to...www\root\superset-config\superset_config.py & cd /d app & superset compute-thumbnails
