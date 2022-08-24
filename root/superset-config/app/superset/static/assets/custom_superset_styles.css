@@ -2599,6 +2599,355 @@ body > div > div > .ant-dropdown > ul:empty:after {
 body > div > div .ant-dropdown-menu > .ant-dropdown-menu-item,
 body > div > div .ant-dropdown-menu-submenu-title,
 .ant-menu-submenu-inline > .ant-menu-inline > .ant-menu-item-only-child,
+.ant-dropdown > .ant-dropdown-menu > .ant-dropdown-menu-item-only-child,
+body > div > div > .ant-menu-submenu > .ant-menu > .ant-menu-item-only-child,
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4,
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4,
+body > div > div .ant-menu-submenu > .ant-menu > .ant-menu-item-only-child,
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4,
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4,
+body > div > div .ant-menu-inline .ant-menu-item, 
+body > div > div .ant-menu-vertical-left .ant-menu-item, 
+body > div > div .ant-menu-vertical-right .ant-menu-item, 
+body > div > div .ant-menu-vertical .ant-menu-item {
+    border-radius: 10px !important;
+    margin: 0 !important;
+    padding: 0px 30px !important;
+    height: 45px;
+    min-height: 45px !important;
+    width: 100% !important;
+    align-self: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+
+/* body > div > div .ant-dropdown-menu > .ant-dropdown-menu-item {
+    flex-direction: row !important;
+} */
+
+body > div > div ul > li[data-test="refresh-chart-menu-item"] {
+    height: 60px !important;
+    padding-top: 8px !important;
+}
+
+body > div > div ul > li.ant-dropdown-menu-item > span[role="img"] {
+    position: absolute;
+    left: 31px;
+}
+
+.menu-wke4wm.ant-menu-item span[role="button"], 
+.menu-wke4wm.ant-dropdown-menu-item span[role="button"], 
+.css-wke4wm.ant-menu-item span[role="button"], 
+.css-wke4wm.ant-dropdown-menu-item span[role="button"] {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title,
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title,
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title,
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 45px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 7px !important;
+    top: initial !important;
+}
+
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title > span,
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title > span,
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title > span,
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title > span {
+    top: initial !important;
+}
+
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title > span,
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title > span,
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title > i,
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title > i,
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title > span,
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title > span,
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title > i,
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title > i {
+    position: initial !important;
+    padding-right: 10px;
+}
+
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title > i:nth-child(1),
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title > i:nth-child(1),
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title > i:nth-child(1),
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title > i:nth-child(1) {
+    margin: 0 !important;
+    padding: 0px 0px 0px 2px !important;
+    top: initial !important;
+}
+
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title > i.ant-menu-submenu-arrow,
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4 > .ant-menu-submenu-title > i.ant-menu-submenu-arrow,
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title > i.ant-menu-submenu-arrow,
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4 > .ant-menu-submenu-title > i.ant-menu-submenu-arrow {
+    margin: 0 !important;
+    margin-left: auto !important;
+    padding: 0 !important;
+    top: 21px !important;
+}
+
+body > div > div .ant-dropdown-menu-submenu-title:hover,
+.ant-dropdown.ant-dropdown-placement-bottomLeft .ant-dropdown-menu-submenu-title:hover,
+body > div > div .ant-dropdown-menu > .ant-dropdown-menu-item:hover,
+.ant-dropdown.ant-dropdown-placement-bottomRight .ant-dropdown-menu-submenu-title:hover,
+.ant-dropdown.ant-dropdown-placement-bottomRight .ant-dropdown-menu-item:hover,
+.ant-menu-submenu-inline > .ant-menu-inline > .ant-menu-item-only-child:hover,
+body > div > div > .ant-menu-submenu > .ant-menu > .ant-menu-item-only-child:hover,
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4:hover,
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4:hover,
+body > div > div .ant-menu-submenu > .ant-menu > .ant-menu-item-only-child:hover,
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4:hover,
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4:hover,
+body > div > div .ant-menu-inline > .ant-menu-item:hover, 
+body > div > div .ant-menu-vertical-left .ant-menu-item:hover, 
+body > div > div .ant-menu-vertical-right .ant-menu-item:hover, 
+body > div > div .ant-menu-vertical .ant-menu-item:hover {
+    background-color: #f3f3f3 !important;
+    font-weight: 600 !important;
+}
+
+@media (max-width: 767px) {
+    body > div > div.css-vhf0sc .ant-menu-inline > .ant-menu-item:hover {
+        background-color: initial !important;
+    }
+}
+
+.ant-menu-submenu-inline > .ant-menu-inline > .ant-menu-item-only-child *,
+body > div > div > .ant-menu-submenu > .ant-menu > .ant-menu-item-only-child,
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4,
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4,
+body > div > div .ant-menu-submenu > .ant-menu > .ant-menu-item-only-child,
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4,
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4,
+body > div > div .ant-menu-inline .ant-menu-item, 
+body > div > div .ant-menu-vertical-left .ant-menu-item, 
+body > div > div .ant-menu-vertical-right .ant-menu-item, 
+body > div > div .ant-menu-vertical .ant-menu-item {
+    font-weight: normal !important;
+}
+
+.ant-dropdown.ant-dropdown-placement-bottomLeft .ant-dropdown-menu-submenu-title:hover [role="img"],
+.ant-dropdown.ant-dropdown-placement-bottomRight .ant-dropdown-menu-submenu-title:hover [role="img"] {
+    color: var(--nav-main-text-color2) !important;
+}
+
+@media (max-width: 767px) {
+    .menu-wke4wm.ant-menu-item a:focus,
+    .css-wke4wm.ant-menu-item a:focus {
+        background-color: transparent !important;
+        color: var(--nav-main-text-color2) !important;
+        font-weight: 600 !important;
+    }
+    .menu-4zkusw .ant-menu-item-active > a:hover,
+    .css-4zkusw .ant-menu-item-active > a:hover {
+        color: var(--nav-main-text-color2) !important;
+        background-color: transparent !important;
+    }
+}
+
+.ant-menu-item:active, 
+.ant-menu-submenu-title:active {
+    background-color: var(--nav-main-bg-color);
+}
+
+.ant-menu-inline .ant-menu-item-selected:after, .ant-menu-inline .ant-menu-selected:after {
+    display: none;
+}
+
+body > div > div > .ant-menu-submenu > .ant-menu > .ant-menu-item-only-child > a,
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4 *,
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4 *,
+body > div > div .ant-menu-submenu > .ant-menu > .ant-menu-item-only-child > a,
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4 *,
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4 *,
+body > div > div .ant-menu-inline .ant-menu-item *, 
+body > div > div .ant-menu-vertical-left .ant-menu-item *, 
+body > div > div .ant-menu-vertical-right .ant-menu-item *, 
+body > div > div .ant-menu-vertical .ant-menu-item *
+ {
+    color: var(--nav-main-text-color2) !important;
+}
+
+body > div > div > .ant-menu-submenu > .ant-menu > .ant-menu-item-only-child > a:hover,
+body > div > div > .ant-menu-submenu > .ant-menu > .css-d1dar4 *:hover,
+body > div > div > .ant-menu-submenu > .ant-menu > .menu-d1dar4 *:hover,
+body > div > div .ant-menu-submenu > .ant-menu > .ant-menu-item-only-child > a:hover,
+body > div > div .ant-menu-submenu > .ant-menu > .css-d1dar4 *:hover,
+body > div > div .ant-menu-submenu > .ant-menu > .menu-d1dar4 *:hover,
+body > div > div .ant-menu-inline .ant-menu-item *:hover, 
+body > div > div .ant-menu-vertical-left .ant-menu-item *:hover, 
+body > div > div .ant-menu-vertical-right .ant-menu-item *:hover, 
+body > div > div .ant-menu-vertical .ant-menu-item *:hover {
+    color: var(--nav-main-text-color2) !important;
+}
+
+body > div > div .ant-menu-item-group-title {
+    color: #333 !important;
+    font-weight: 600 !important;
+}
+
+/* favorites */
+[aria-label="favorite-selected"], 
+[aria-label="favorite-unselected"] {
+    visibility: hidden;
+}
+
+#app:not(.Dashboard_Reader) [aria-label="favorite-selected"],
+#app:not(.Dashboard_Reader) [aria-label="favorite-unselected"]  {
+    visibility: visible;
+}
+
+/* initial Hide extra filters in dashboard page for Dashboard_Reader role */
+#app-menu:not(.show_extra_controls) > div > div > div > div > .menu-1v4672h,
+#app-menu:not(.show_extra_controls) > div > div > div > div > .css-1v4672h,
+#app:not(.show_extra_controls) > div > div > div > div > .menu-1v4672h,
+#app:not(.show_extra_controls) > div > div > div > div > .css-1v4672h {
+    display: None;
+}
+
+/* PAGE - Визуализации */
+body.standalone .dashboard-header-container.menu-1wcpuu1,
+body.standalone .dashboard-header-container.css-1wcpuu1 {
+    border: 0 !important;
+}
+
+body.standalone .dashboard-component.full-size {
+    border-radius: 0 !important;
+}
+
+body.standalone .dashboard-header-container.menu-1wcpuu1 .header-with-actions.menu-1db2tta,
+body.standalone .dashboard-header-container.css-1wcpuu1 .header-with-actions.css-1db2tta {
+    padding: 0 !important;
+    height: auto;
+    background-color: transparent;
+    border: 0 !important;
+}
+
+body.standalone .dashboard-header-container.menu-1wcpuu1 .header-with-actions.menu-1db2tta .title-panel,
+body.standalone .dashboard-header-container.css-1wcpuu1 .header-with-actions.css-1db2tta .title-panel {
+    display: none;
+}
+
+body.standalone .dashboard-header-container.menu-1wcpuu1 .header-with-actions.menu-1db2tta .right-button-panel,
+body.standalone .dashboard-header-container.css-1wcpuu1 .header-with-actions.css-1db2tta .right-button-panel {
+    width: 100% !important;
+}
+
+body.standalone .dashboard-header-container.menu-1wcpuu1 .header-with-actions.menu-1db2tta .right-button-panel .button-container,
+body.standalone .dashboard-header-container.css-1wcpuu1 .header-with-actions.css-1db2tta .right-button-panel .button-container {
+    display: none !important;
+}
+
+body.standalone .dashboard-header-container.menu-1wcpuu1 .header-with-actions.menu-1db2tta .right-button-panel .menu-17x4a0o,
+body.standalone .dashboard-header-container.css-1wcpuu1 .header-with-actions.css-1db2tta .right-button-panel .css-17x4a0o {
+    margin-left: auto;
+    margin: 0 !important;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+body.standalone #app > .menu-ublptf > .menu-t22g9u > .dashboard > .dashboard-content > .grid-container,
+body.standalone #app > .css-ublptf > .css-t22g9u > .dashboard > .dashboard-content > .grid-container {
+    margin: 0 !important;
+}
+
+body.standalone #app > .menu-ublptf > .menu-t22g9u > .dashboard > .dashboard-content > .grid-container > div,
+body.standalone #app > .css-ublptf > .css-t22g9u > .dashboard > .dashboard-content > .grid-container > div {
+    border-radius: 0 !important;
+    background-color: #ebebeb !important;
+}
+
+body.standalone #app > .css-ublptf > .css-9v8kzz .header-with-actions.css-1db2tta {
+    height: initial;
+}
+
+body.standalone #app-menu > .menu-ublptf > .menu-t22g9u > .dashboard > .dashboard-content > .grid-container > div, 
+body.standalone #app > .menu-ublptf > .menu-t22g9u > .dashboard > .dashboard-content > .grid-container > div, 
+body.standalone #app > .css-ublptf > .css-t22g9u > .dashboard > .dashboard-content > .grid-container > div {
+    min-height: 100vh !important;
+}
+
+body.standalone #app > .css-ublptf > .css-t22g9u > .dashboard .ant-tabs.ant-tabs-top.ant-tabs-card.css-1cx2jim {
+    padding: 20px;
+}
+
+body.standalone #app-menu > .menu-ublptf > .menu-t22g9u > .csmenus-1l7ucge,
+body.standalone #app > .menu-ublptf > .menu-t22g9u > .menu-1l7ucge,
+body.standalone #app > .css-ublptf > .css-t22g9u > .css-1l7ucge {
+    top: initial;
+}
+
+/* body:not(.standalone) [data-test="filter-bar__filter-icon"] {
+    margin: 45px 0px 0px 47px !important;
+} */
+
+body #app .css-17x4a0o {
+    position: fixed;
+    right: 25px;
+    top: 137px;
+}
+
+body.standalone #app .css-17x4a0o {
+    right: 2px;
+    top: 7px;
+}
+
+body #app [data-test="filter-bar__filter-icon"] {
+    position: fixed;
+    top: 177px;
+    right: 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 6px 6px 6px 6px;
+    border: 1px solid #b7b7b7;
+    color: #b7b7b7;
+    transition: all 0.3s ease 0s;
+}
+
+body.standalone #app [data-test="filter-bar__filter-icon"] {
+    top: 45px;
+    right: 2px;
+}
+
+@media (max-width: 767px) {
+    body #app .css-17x4a0o {
+        top: 282px;
+    }
+
+    body #app [data-test="filter-bar__filter-icon"] {
+        top: 320px;
+    }
+}
+
+/* body.standalone [data-test="filter-bar__filter-icon"] {
+    margin: -18px 0px 0px 22px !important;
+} */
+
+body #app [data-test="filter-bar__filter-icon"]:hover {
+    color: #333 !important;
+    border: 1px solid #333;
+    font-size: 22px;
+    padding: 4px;
+    transition: all 0.3s ease 0s;
+}
+
+body #app [data-test="filter-bar__expand-button"] {
+    display: none;
+}
     
 
 
