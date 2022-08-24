@@ -193,7 +193,6 @@ SUPERSET_URL = "{protocol}://{domainName}:{port}".format(
     domainName=SUPERSET_WEBSERVER_DOMAINS[0], 
     port=str(SUPERSET_WEBSERVER_PORT)
 )
-)
 
 
 # This is an important setting, and should be lower than your
@@ -254,7 +253,7 @@ SQLALCHEMY_EXAMPLES_URI = "postgresql+psycopg2://{PROD_USERS_DASHBOARDS_DB_1_USE
     PROD_USERS_DASHBOARDS_DB_1_PORT=os.getenv('PROD_USERS_DASHBOARDS_DB_1_PORT'),
     PROD_USERS_DASHBOARDS_DB_1_DBNAME=os.getenv('PROD_USERS_DASHBOARDS_DB_1_DBNAME'),
     PROD_USERS_DASHBOARDS_DB_1_SHEMA=os.getenv('PROD_USERS_DASHBOARDS_DB_1_SHEMA')
-    )
+)
 
 # Enable profiling of Python calls. Turn this on and append ``?_instrument=1``
 # to the page to see the call stack.
