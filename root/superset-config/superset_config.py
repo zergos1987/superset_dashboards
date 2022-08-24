@@ -222,3 +222,14 @@ class SupersetDashboardIndexView(IndexView):
 
    
 FAB_INDEX_VIEW = f"{SupersetDashboardIndexView.__module__}.{SupersetDashboardIndexView.__name__}"
+
+# Multiple favicons can be specified here. The "href" property
+# is mandatory, but "sizes," "type," and "rel" are optional.
+# For example:
+# {
+#     "href":path/to/image.png",
+#     "sizes": "16x16",
+#     "type": "image/png"
+#     "rel": "icon"
+# },
+FAVICONS = [{"href": "/static/assets/images/logo_brand.ico"}]
