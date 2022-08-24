@@ -1,0 +1,10 @@
+Distributes here:
+
+ChromeStandAloneSetup89
+httpd-2.4.51-win64-VS16
+instantclient_19_12
+nssm-2.24
+postgresql-14.1-1-windows-x64
+python-3.8.6-amd64
+Redis-x64-3.0.504
+SybaseIQ-16
