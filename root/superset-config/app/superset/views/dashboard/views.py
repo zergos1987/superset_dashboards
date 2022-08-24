@@ -39,6 +39,8 @@ from superset.views.base import (
     SupersetModelView,
 )
 from superset.views.dashboard.mixin import DashboardMixin
+# CUSTOM MODIFIED
+from superset.models.core import CssTemplate
 
 
 class DashboardModelView(
@@ -121,11 +123,21 @@ class Dashboard(BaseSupersetView):
                 "show_native_filters": True,
             }
 
+        # CUSTOM MODIFIED
+        obj_css = db.session.query(CssTemplate).filter_by(template_name="Dashbord_template_main").first()
+        if obj_css:
+            obj_css = obj_css.css
+        else:
+            obj_css = ""
+
         new_dashboard = DashboardModel(
             dashboard_title="[ untitled dashboard ]",
             owners=[g.user],
+            css=obj_css,
+            roles=[self.appbuilder.sm.find_role('Admin')],
             json_metadata=json.dumps(metadata, sort_keys=True),
         )
+
         db.session.add(new_dashboard)
         db.session.commit()
         return redirect(f"/superset/dashboard/{new_dashboard.id}/?edit=true")
