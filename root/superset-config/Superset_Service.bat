@@ -1,0 +1,1 @@
+cd /d path to ...\www\root & \www\root\venv\Scripts\activate.bat & SET FLASK_APP=superset&SET SUPERSET_LAUNCH_MODE=APP&SET SUPERSET_CONFIG_PATH=path to ...\www\root\superset-config\superset_config.py & cd /d app & superset run --cert path to ... .crt --key path to .key -h hostname -p port --with-threads --debugger
