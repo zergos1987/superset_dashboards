@@ -1,2 +1,22 @@
-# Dashboard Reader
-# Dashboard Creator
+# Dashboards_Reader ########################################
+
+"can read on CssTemplate; can read on Chart; can read on Dashboard; can userinfo on UserDBModelView; can list on AsyncEventsRestApi; can write on DashboardFilterStateRestApi; can read on DashboardFilterStateRestApi; can edit on FilterSets; can add on FilterSets; can delete on FilterSets; can list on FilterSets; can time range on Api; can request access on Superset; can csv on Superset; can warm up cache on Superset; can explore json on Superset; can stop query on Superset; can filter on Superset; can dashboard on Superset; can explore on Superset; can profile on Superset; can favstar on Superset; can fave dashboards on Superset; can testconn on Superset; can recent activity on Superset; can fetch datasource metadata on Superset; can activate on TabStateView; can get on TabStateView; menu access on Dashboards; schema access on [examples].[user_dashboards];"
+
+
+
+# Dashboards_Creator ########################################
+
+can read on SavedQuery; can write on SavedQuery; can read on CssTemplate; can write on CssTemplate; can read on ReportSchedule; can write on ReportSchedule; can read on Chart; can write on Chart; can read on Annotation; can write on Annotation; can read on Dataset; can write on Dataset; can read on Dashboard; can write on Dashboard; can read on Database; can read on Query; can this form get on UserInfoEditView; can this form post on UserInfoEditView; can userinfo on UserDBModelView; can get on OpenApi; can get on MenuApi; can list on AsyncEventsRestApi; can invalidate on CacheRestApi; can export on Chart; can edit on FilterSets; can export on SavedQuery; can show on DynamicPlugin; can list on DynamicPlugin; can query on Api; can query form data on Api; can time range on Api; can this form get on CsvToDatabaseView; can this form post on CsvToDatabaseView; can this form get on ExcelToDatabaseView; can this form post on ExcelToDatabaseView; can this form get on ColumnarToDatabaseView; can this form post on ColumnarToDatabaseView; can save on Datasource; can external metadata on Datasource; can get on Datasource; can external metadata by name on Datasource; can store on KV; can get value on KV; can my queries on SqlLab; can request access on Superset; can add slices on Superset; can extra table metadata on Superset; can annotation json on Superset; can sqllab viz on Superset; can validate sql json on Superset; can search queries on Superset; can available domains on Superset; can sqllab history on Superset; can csv on Superset; can import dashboards on Superset; can datasources on Superset; can save dash on Superset; can slice on Superset; can sql json on Superset; can warm up cache on Superset; can sqllab on Superset; can log on Superset; can created dashboards on Superset; can explore json on Superset; can created slices on Superset; can estimate query cost on Superset; can stop query on Superset; can filter on Superset; can dashboard on Superset; can results on Superset; can explore on Superset; can schemas access for file upload on Superset; can copy dash on Superset; can profile on Superset; can slice json on Superset; can favstar on Superset; can queries on Superset; can sqllab table viz on Superset; can user slices on Superset; can fave dashboards on Superset; can fave slices on Superset; can fave dashboards by username on Superset; can testconn on Superset; can recent activity on Superset; can tables on Superset; can fetch datasource metadata on Superset; can expanded on TableSchemaView; can delete on TableSchemaView; can post on TableSchemaView; can delete on TabStateView; can migrate query on TabStateView; can delete query on TabStateView; can activate on TabStateView; can put on TabStateView; can get on TabStateView; can post on TabStateView; can delete on TagView; can suggestions on TagView; can tagged objects on TagView; can get on TagView; can post on TagView; menu access on List Users; menu access on List Roles; menu access on Access requests; menu access on Manage; menu access on Annotation Layers; menu access on Plugins; menu access on CSS Templates; menu access on Import Dashboards; menu access on Alerts & Report; menu access on Dashboards; menu access on Charts; menu access on SQL Lab; menu access on SQL Editor; menu access on Сохраненные запросы; menu access on Query Search; menu access on Data; menu access on Databases; menu access on Datasets; can share dashboard on Superset; can share chart on Superset; schema access on [examples].[user_dashboards];"
+
+
+
+# Dashboards_Reader_Explore ########################################
+
+"can explore on Superset;"
+
+
+
+DatabaseExplorer_DB_1 ########################################
+
+"schema access on [db_1.schema_1]; schema access on [db_1.schema_4]; "
+
