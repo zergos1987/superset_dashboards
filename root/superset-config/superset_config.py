@@ -1265,6 +1265,18 @@ PREFERRED_DATABASES: List[str] = [
     # etc.
 ]
 
+# Do not show user info or profile in the menu
+MENU_HIDE_USER_INFO = False
+
+print('CONFIG_ROOT_DIR: ', CONFIG_ROOT_DIR)
+print('SUPERSET_LAUNCH_MODE: ', os.environ.get("SUPERSET_LAUNCH_MODE"))
+print('SUPERSET_WEBSERVER_PROTOCOL: ', SUPERSET_WEBSERVER_PROTOCOL)
+print('SUPERSET_WEBSERVER_DOMAINS: ', SUPERSET_WEBSERVER_DOMAINS[0])
+print('SUPERSET_WEBSERVER_PORT: ', SUPERSET_WEBSERVER_PORT)
+print('SUPERSET_URL: ',SUPERSET_URL)
+
+print('\n>>>>>>>>>>>>>>>>>>>>>>>>>> init done: superset_production_config <<<<<<<<<<<<<<<<<<<<<<<<<<<<\n')
+
     
     
     
